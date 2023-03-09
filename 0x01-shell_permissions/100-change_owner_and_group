@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# Change owner to "vincent" and group owner to "staff" for all files and directories in the current directory
-chown -R vincent:staff .
+chown -hR vincent:staff
