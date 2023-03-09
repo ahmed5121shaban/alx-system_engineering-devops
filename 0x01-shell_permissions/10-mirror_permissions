@@ -1,0 +1,5 @@
+#!/bin/bash
+# Sets the mode of file hello the same as olleh's mode
+
+MODE=$(stat -c %a olleh)  # get olleh's mode
+chmod "$MODE" hello      # set hello's mode to olleh's mode
